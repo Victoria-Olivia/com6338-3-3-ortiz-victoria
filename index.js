@@ -33,3 +33,7 @@ var questionsArr = [
         answer: true
       }, 
 ];
+
+function runQuiz () {
+    
+}
