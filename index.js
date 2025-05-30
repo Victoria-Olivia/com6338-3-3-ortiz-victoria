@@ -35,5 +35,7 @@ var questionsArr = [
 ];
 
 function runQuiz () {
+
+    var score = 0;
     
 }
