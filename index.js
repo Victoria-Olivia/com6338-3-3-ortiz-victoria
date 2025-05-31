@@ -33,7 +33,7 @@ var questionsArr = [
         answer: true
       }, 
       {
-        question: 'Java is an informal term for coffee?',
+        question: 'Java is an informal term for coffee? Click OK for True, Cancel for False.',
         answer: true
       },
 ];
