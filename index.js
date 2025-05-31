@@ -45,9 +45,9 @@ function runQuiz () {
         if (userAnswer === questionsArr[i].answer) {
             score++;
         }
-        
-        var percentage = (score / questionsArr.length) * 100;
-        var scorePercentage = Math.round(percentage);
-        alert('You scored!: ' + scorePercentage + '%');
-    } 
+    }
+
+    var percentage = (score / questionsArr.length) * 100;
+    var scorePercentage = Math.round(percentage);
+    alert('You scored!: ' + scorePercentage + '%');
 }
