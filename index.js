@@ -21,7 +21,7 @@ var questionsArr = [
         answer: true
       }, 
       {
-        question: 'HTML stands for HyperText Markup Language? Click OK for True, Cancel for False.',
+        question: 'Texas is known as the lone star state? Click OK for True, Cancel for False.',
         answer: true
       }, 
       {
