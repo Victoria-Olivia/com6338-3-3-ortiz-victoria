@@ -29,9 +29,13 @@ var questionsArr = [
         answer: true
       }, 
       {
-        question: 'CSS stands for Cascading Style Sheets? Click OK for True, Cancel for False.',
+        question: 'jQuery makes writing JavaScript a lot easier? Click OK for True, Cancel for False.',
         answer: true
       }, 
+      {
+        question: 'Java is an informal term for coffee?',
+        answer: true
+      },
 ];
 
 function runQuiz () {
