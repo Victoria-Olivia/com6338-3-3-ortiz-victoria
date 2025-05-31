@@ -13,7 +13,7 @@ var questionsArr = [
         answer: true
       }, 
       {
-        question: 'DaVinci believed that simplicity is the ultimate sophistication”? Click OK for True, Cancel for False.',
+        question: 'DaVinci believed that simplicity is the ultimate sophistication? Click OK for True, Cancel for False.',
         answer: true
       }, 
       {
