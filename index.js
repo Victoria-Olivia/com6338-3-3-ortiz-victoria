@@ -39,7 +39,6 @@ var questionsArr = [
 ];
 
 function runQuiz () {
-
     var score = 0;
     
        for (var i = 0; i < questionsArr.length; i++) {
@@ -50,7 +49,7 @@ function runQuiz () {
             score++;
         }
     }
-
+    
     var percentage = (score / questionsArr.length) * 100;
     var scorePercentage = Math.round(percentage);
     alert('You scored!: ' + scorePercentage + '%');
