@@ -38,4 +38,16 @@ function runQuiz () {
 
     var score = 0;
     
+       for (var i = 0; i < questionsArr.length; i++) {
+
+        var userAnswer = confirm(questionsArr[i].question);
+        
+        if (userAnswer === questionsArr[i].answer) {
+            score++;
+        }
+        
+        var percentage = (score / questionsArr.length) * 100;
+        var scorePercentage = Math.round(percentage);
+        alert('You scored!: ' + scorePercentage + '%');
+    } 
 }
