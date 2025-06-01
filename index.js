@@ -1,4 +1,3 @@
-// Your code here
 var questionsArr = [
       {
         question: 'JavaScript is super fun to learn? Click OK for True, Cancel for False.',
