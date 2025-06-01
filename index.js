@@ -62,5 +62,4 @@ function runQuiz () {
         + '\nCorrect answers: ' + score + '.'
         + '\nWrong answers: ' + (questionsArr.length - score) + '.'
     );
-         
 }
