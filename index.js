@@ -40,6 +40,7 @@ var questionsArr = [
 
 function runQuiz () {
     var score = 0;
+    var wrongAnswer = 0;
     
        var i;
        for (var i = 0; i < questionsArr.length; i++) {
@@ -49,9 +50,17 @@ function runQuiz () {
         if (userAnswer === questionsArr[i].answer) {
             score++;
         }
+        else {
+            wrongAnswer = confirm('Try again! The correct answer is: ' + questionsArr[i].answer + '. Click OK to continue.');
+        }
     }
 
     var percentage = (score / questionsArr.length) * 100;
     var scorePercentage = Math.round(percentage);
-    alert('You scored!: ' + scorePercentage + '%');
+    alert('Thanks for playing! You scored!: ' + scorePercentage + '%'
+        + '\nYou answered ' + score + ' questions correctly out of ' + questionsArr.length + '.'
+        + '\nCorrect answers: ' + score + '.'
+        + '\nWrong answers: ' + (questionsArr.length - score) + '.'
+    );
+         
 }
